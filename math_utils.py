@@ -24,5 +24,18 @@ class MathUtils:
     """
     if b == 0:
       raise ValueError("You cannot divide by zero!")
-    return a / b 
-  
+    return a / b
+
+  @staticmethod
+  def multiply(a: int | float, b: int | float) -> int | float:
+    """
+    Just multiplies two numbers
+    """
+    return a * b
+
+  @staticmethod
+  def pow(a: int | float, b: int | float) -> int | float:
+    """
+    Just raises to power a number
+    """
+    return a ** b
